@@ -402,23 +402,18 @@ header[role="banner"] {
           position: absolute;
           left: -1000em;
           margin-bottom: 0.2em;
-          font-size: 0.8em; }
+          font-size: 0.75em; }
           @media (min-width: 769px) {
             header[role="banner"] div.logo.wrap div.contact div.numbers dl dt {
               position: static; } }
         header[role="banner"] div.logo.wrap div.contact div.numbers dl dd {
           display: inline-block; }
-          header[role="banner"] div.logo.wrap div.contact div.numbers dl dd:first-of-type {
-            margin-right: 0.75em; }
-          header[role="banner"] div.logo.wrap div.contact div.numbers dl dd:last-of-type {
-            position: absolute;
-            left: -1000em; }
-            @media (min-width: 769px) {
-              header[role="banner"] div.logo.wrap div.contact div.numbers dl dd:last-of-type {
-                position: static; } }
+          @media (min-width: 769px) {
+            header[role="banner"] div.logo.wrap div.contact div.numbers dl dd:last-of-type {
+              position: static; } }
           header[role="banner"] div.logo.wrap div.contact div.numbers dl dd a.tel {
             display: block;
-            font-size: 1.1em;
+            font-size: 1.2em;
             line-height: 1.2;
             color: white;
             text-transform: none; }
